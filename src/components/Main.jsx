@@ -6,7 +6,7 @@ function Main() {
   return (
     <div>
         <Navbar />
-        <img src='bg.png' className='absolute top-0 -z-50  w-[370px]  lg:w-screen h-[500px] lg:h-screen bg-cover ' id='home' />
+        <img src='bg.png' className='absolute top-0 -z-50  w-[390px]  lg:w-screen h-[500px] lg:h-screen bg-cover ' id='home' />
         <BookingCard />
     </div>
   )
