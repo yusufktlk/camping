@@ -2,7 +2,7 @@ import React from 'react'
 
 function BookingCard() {
   return (
-    <div className='flex justify-around items-center text-[8px] lg:text-base lg:px-12 lg:pt-2 font-bold bg-white rounded-lg lg:w-[1200px] h-[100px] lg:h-[150px] m-auto mt-[360px] lg:mt-[550px] text-[#345E40] '>
+    <div className='flex justify-around items-center gap-x-4 text-[7px] lg:text-base lg:px-12 lg:pt-2 font-bold bg-white rounded-lg min-w-[375px] w-[455px] max-w-[468px] lg:max-w-[1200px] lg:w-[1200px] h-[100px] lg:h-[150px] lg:m-auto mt-[360px] lg:mt-[550px] text-[#345E40] '>
         <div>
             <div className='flex gap-x-2 items-center mb-4'>
                 <img src='date.png' className='w-4 xl:h-4' />  
@@ -46,7 +46,7 @@ function BookingCard() {
                 <option>Cabin</option>
             </select>
         </div>
-        <button className='bg-[#345E40] h-10 lg:h-12 w-24 lg:w-44 rounded-lg text-white'>BOOK NOW</button>
+        <button className='bg-[#345E40] h-10 lg:h-12 w-12 lg:w-44 rounded-lg text-white'>BOOK NOW</button>
     </div>
   )
 }
