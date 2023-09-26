@@ -7,7 +7,7 @@ import { Link } from 'react-scroll'
 
 function Footer() {
   return (
-    <div className='bg-[#345E40] text-white flex pt-32 pb-12'>
+    <div className='bg-[#345E40] text-white flex pt-32 pb-12' id='footer'>
         <div className='mx-2 lg:mx-32'>
             <h1 className='text-lg lg:text-5xl font-bold lg:w-[600px]'>SUBSCRIBE TO OUR NEWSLETTER</h1>
             <div className='flex lg:justify-between mt-5'>
